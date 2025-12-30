@@ -107,7 +107,6 @@ searchBtn.onclick = () => {
         }
         let btn = document.createElement("button");
         btn.innerHTML = "Others";
-        btn.classList.add("other")
         btn.onclick = () => location.reload();
         box.appendChild(btn);
         search.value = "";
