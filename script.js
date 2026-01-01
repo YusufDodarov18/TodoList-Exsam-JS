@@ -7,7 +7,6 @@ const inputEdit = document.querySelector(".inputEdit");
 const searchBtn = document.querySelector(".searchBtn");
 const search = document.querySelector(".search");
 
-
 let data=JSON.parse(localStorage.getItem("tasks"))||[]
 
 function getData(list =data){
